@@ -46,6 +46,12 @@ void draw() {
       image(photo3, 155,50);
       image(poster, 683,50);
       text("This is Laz Alonso who plays the character Charlie DuChamp on Breakout Kings.", 400, 600);
+      text("His character is presented as the main authority figure with a heart defect but takes his job very seriously.", 400, 625);
+      text("His heart defect causes worry from his team on occasions but he proves that he can do the job.", 400, 650);
+      break;
+    case 3:
+      image(photo2, 155,50);
+      image(poster, 683,50);
       
   }
 }
