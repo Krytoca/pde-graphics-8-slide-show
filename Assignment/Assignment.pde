@@ -56,7 +56,21 @@ void draw() {
       text("His character is presented as one of the four convicts that helps catch criminals to reduce his prison sentence.", 400, 625);
       text("He is a  former child prodigy and a behaviorist with a bachelor's degree (1993) and M.D. (1997) from Harvard.", 400, 650);
       text("He is a genius with a 210 IQ and provides in-depth psychological evaluations of escaped convicts while pursuing them.", 400, 675);
-      
+      break;
+    case 4:
+      image(photo4, 155, 50);
+      image(poster, 683, 50);
+      text("This is Malcolm Goodwin who plays Shea Daniels on Breakout Kings.", 400, 625);
+      text("He is a former gang leader whose criminal enterprises (drug smuggling, weapons trafficking, etc.) covered most of the United States.", 400, 650);
+      text("His experience and street smarts allow him to provide a working knowledge of how convicts think and move.", 400, 675);
+      break;
+    case 5:
+      image(photo5, 155, 50);
+      image(poster, 683, 50);
+      text("This is Serinda Swan who plays Erica Reed in Breakout Kings.", 400, 625);
+      text("She is a bounty hunter and expert tracker. Unlike the rest of her teammates she was hand-picked by Charlie Duchamp.", 400, 650);
+      text("She provides an alternative perspective for the team and does the primary tracking of the convicts that the team hunts down.", 400, 675);
+      break;
   }
 }
 
