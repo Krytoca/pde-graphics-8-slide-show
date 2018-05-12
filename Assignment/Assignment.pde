@@ -14,6 +14,8 @@ PImage photo5;
 PImage background;
 PImage poster;
 
+int n = 1;
+
 void setup() {
   size(1500,800);//Size of Canvas
   photo1 = loadImage("domenick-lombardozzi.jpg");//Load images stored in directory
@@ -29,8 +31,6 @@ void draw() {
   background(0,0,0);//Background color as rbg values
   
   image(background, 0, 0);
-  
-  int n = 1;
 
   switch(n) {
     case 1:
@@ -75,6 +75,9 @@ void draw() {
 }
 
 void mousePressed(){
-  
+  n++;
+  if(n == 6) {
+    n = 1;
+  }
  
 }
