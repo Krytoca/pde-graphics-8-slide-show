@@ -52,6 +52,10 @@ void draw() {
     case 3:
       image(photo2, 155,50);
       image(poster, 683,50);
+      text("This is Jimmi Simpson who plays Dr. Lloyd Lowery on Breakout Kings.", 400, 600);
+      text("His character is presented as one of the four convicts that helps catch criminals to reduce his prison sentence.", 400, 625);
+      text("He is a  former child prodigy and a behaviorist with a bachelor's degree (1993) and M.D. (1997) from Harvard.", 400, 650);
+      text("He is a genius with a 210 IQ and provides in-depth psychological evaluations of escaped convicts while pursuing them.", 400, 675);
       
   }
 }
